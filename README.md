@@ -9,8 +9,8 @@ This site uses Hugo Extended, siteman, and the Roxo Flex theme.
 - content/about/, content/portfolio/, and content/contact/ hold site pages.
 - content/field-notes/ holds sourced product and design studies.
 - static/images/ and static/icons/ hold site-owned artwork. The header uses a
-  direct crop of the faceted logo from the supplied sheet. The footer uses a
-  direct crop of the linework logo. The favicon uses the circular faceted logo.
+  direct crop of the faceted logo. The homepage and footer use linework crops.
+  The favicon uses the circular faceted logo.
 - .siteman/layouts/contact.html adds the public GitHub contact link.
 
 Roxo Flex loads before siteman-default. Keep that order so siteman can provide

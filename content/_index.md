@@ -7,8 +7,8 @@ enabled = true
 eyebrow = "Mechanical and industrial product design"
 title = "Design for the way things work."
 text = "Bullish Design provides product design consulting for mechanical and industrial products. The work starts with how a product must function, feel, and be made."
-image = "images/hero-mechanism.svg"
-image_alt = "Diagrammatic study of a central rotary joint, linked arms, and measurement marks."
+image = "images/bullish-mark-linework.png"
+image_alt = "Bullish Design linework bull emblem."
 [hero.button]
 label = "Explore selected work"
 url = "/portfolio/"
