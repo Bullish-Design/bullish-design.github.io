@@ -63,18 +63,14 @@
     "siteman": {
       "flake": false,
       "locked": {
-        "lastModified": 1792450243,
-        "narHash": "sha256-wH/GsNBadhCS9mKGETX1Lvtp2T3mNJzXGxx88joPWj0=",
-        "owner": "bullish-design",
-        "repo": "siteman",
-        "rev": "a218033e131f9ca9f43ee03e7da0aa80e2bceeb5",
-        "type": "github"
+        "path": "tools/siteman",
+        "type": "path"
       },
       "original": {
-        "owner": "bullish-design",
-        "repo": "siteman",
-        "type": "github"
-      }
+        "path": "tools/siteman",
+        "type": "path"
+      },
+      "parent": []
     }
   },
   "root": "root",

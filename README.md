@@ -34,7 +34,7 @@ page uses a public GitHub issue link while no email address is available.
 Run devenv shell -- siteman-serve, devenv shell -- siteman-build, and
 devenv shell -- siteman-check. Run testee verify before publishing.
 
-The Pages workflow uses siteman to build when the private `SITEMAN_READ_TOKEN`
-secret is configured. Without that secret, it deploys the checked-in
-`pages-static/` snapshot without starting Nix. Rebuild and commit the snapshot
-after each site change.
+The Pages workflow checks and builds the site before deployment. `tools/siteman/`
+contains the pinned Siteman module snapshot from source commit
+`979efd30b98e5bd6c74b013d6fcca758dd907766`. The site repository commit pins
+that snapshot, so GitHub Actions does not need a private Siteman token.
