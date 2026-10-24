@@ -1,0 +1,77 @@
+baseURL = "https://bullish-design.github.io/"
+locale = "en-US"
+title = "Bullish Design"
+
+# siteman keeps Hugo machinery in .siteman/; authored content stays at the repo
+# root (content/, static/, assets/) so live-reload works with no symlinks.
+layoutDir    = ".siteman/layouts"   # project-level template OVERRIDES (empty by default)
+archetypeDir = ".siteman/archetypes"
+themesDir    = ".siteman/themes"
+resourceDir  = ".siteman/resources"
+publishDir = "public"
+
+# Layout precedence is, highest first:
+#   1. .siteman/layouts/        — your project overrides (empty until you add one)
+#   2. your theme               — whatever you list before siteman-default below
+#   3. siteman-default          — siteman's shipped fallback layouts
+# All three coexist: a theme can render the site while siteman-default fills any
+# template it omits, and a file in .siteman/layouts/ always wins.
+theme = ["github.com/Bullish-Design/roxo-flex", "siteman-default"]
+
+[params]
+business_name = "Bullish Design"
+description = "Product design consulting for mechanical and industrial products."
+logo = "images/bullish-mark.svg"
+footer_logo = "images/bullish-mark.svg"
+favicon = "images/favicon.svg"
+copyright = "© 2026 Bullish Design"
+
+[params.contact]
+github_url = "https://github.com/Bullish-Design/bullish-design.github.io/issues/new"
+
+[params.style]
+background = "#111615"
+surface = "#1B211F"
+text = "#F5E8D1"
+muted = "#A8BEC4"
+border = "#47534E"
+accent = "#D87835"
+on_accent = "#151918"
+font_body = "system-ui, sans-serif"
+font_heading = '"Arial Narrow", "Roboto Condensed", system-ui, sans-serif'
+type_scale = "1.2"
+spacing = "1.1rem"
+button_radius = "0.15rem"
+hero_image_radius = "0"
+image_filter = "none"
+icon_size = "1.1rem"
+
+[[params.social]]
+name = "GitHub"
+url = "https://github.com/Bullish-Design"
+icon = "icons/github.svg"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 2
+[[menu.main]]
+name = "Work"
+url = "/portfolio/"
+weight = 3
+[[menu.main]]
+name = "Field Notes"
+url = "/field-notes/"
+weight = 4
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 5
+
+[markup]
+  [markup.highlight]
+    noClasses = false

@@ -7,16 +7,26 @@
   # Every task declares `input.testee`, so Testee can reuse a verdict when a commit
   # changes none of its inputs. Run `testee doctor` after any edit to this table.
   # devman's `base` group calls `base:check` and `base:test`.
-  # A blank site has nothing to build. The checks below are the whole gate.
+  # Siteman builds and checks the Hugo site.
   tasks = {
     "check:lint" = {
       exec = ''
         set -eu
         cd "$DEVENV_ROOT"
-        test -s README.md || { echo "README.md is missing or empty"; exit 1; }
-        test -s AGENTS.md || { echo "AGENTS.md is missing or empty"; exit 1; }
+        siteman-check
       '';
-      input.testee.reads = [ "README.md" "AGENTS.md" ];
+      input.testee.reads = [
+        "README.md"
+        "content/**"
+        ".siteman/**"
+        "static/**"
+        "assets/**"
+        ".github/workflows/**"
+        ".gitignore"
+        "go.mod"
+        "go.sum"
+        "_vendor/**"
+      ];
     };
 
     "check:format" = {
@@ -38,7 +48,7 @@
 
     "check:types" = {
       exec = ''
-        echo "n/a: blank site: no typed language"
+        echo "n/a: static Hugo site: no typed language"
         exit 0
       '';
       input.testee.ignores = [ "**" ];
@@ -46,15 +56,24 @@
 
     "test:quick" = {
       exec = ''
-        echo "n/a: no quick test subset"
-        exit 0
+        set -eu
+        cd "$DEVENV_ROOT"
+        siteman-build
       '';
-      input.testee.ignores = [ "**" ];
+      input.testee.reads = [
+        "content/**"
+        ".siteman/**"
+        "static/**"
+        "assets/**"
+        "go.mod"
+        "go.sum"
+        "_vendor/**"
+      ];
     };
 
     "test:full" = {
       exec = ''
-        echo "n/a: blank site: nothing to test yet"
+        echo "n/a: static site: no browser test suite"
         exit 0
       '';
       input.testee.ignores = [ "**" ];

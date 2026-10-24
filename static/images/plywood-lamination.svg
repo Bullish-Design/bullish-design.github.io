@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Laminated plywood study</title>
+  <desc id="desc">Thin layers follow a shallow curve to form a compound plywood panel.</desc>
+  <rect width="1200" height="800" fill="#111615"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M174 514C350 490 412 330 602 330S851 495 1026 470" stroke="#D87835" stroke-width="18"/>
+    <path d="M174 542C350 518 412 358 602 358S851 523 1026 498" stroke="#E89B60" stroke-width="13"/>
+    <path d="M174 566C350 542 412 382 602 382S851 547 1026 522" stroke="#F5E8D1" stroke-width="9"/>
+    <path d="M174 587C350 563 412 403 602 403S851 568 1026 543" stroke="#A8BEC4" stroke-width="6"/>
+    <path d="M174 605C350 581 412 421 602 421S851 586 1026 561" stroke="#D87835" stroke-width="4"/>
+  </g>
+  <g fill="none" stroke="#47534E" stroke-width="2">
+    <path d="M174 640H1026M174 624v32M1026 624v32"/>
+    <path d="M230 236h142M230 226v20M372 226v20M828 238h142M828 228v20M970 228v20"/>
+  </g>
+  <g fill="#A8BEC4" font-family="system-ui, sans-serif" font-size="19" letter-spacing="3">
+    <text x="230" y="208">THIN VENEERS</text>
+    <text x="828" y="210">COMPOUND CURVE</text>
+    <text x="176" y="690">ILLUSTRATIVE SECTION · NOT TO SCALE</text>
+  </g>
+</svg>

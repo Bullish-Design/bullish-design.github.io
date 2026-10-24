@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Responsive page system</title>
+  <desc id="desc">Illustration of a site header, split hero, and selected work cards.</desc>
+  <rect width="1200" height="800" fill="#111615"/>
+  <g stroke="#47534E" stroke-width="2" fill="#1B211F">
+    <rect x="80" y="72" width="1040" height="656" rx="4"/>
+    <path d="M80 166h1040"/>
+    <rect x="130" y="110" width="178" height="18" fill="#D87835" stroke="none"/>
+    <rect x="750" y="112" width="76" height="12" fill="#A8BEC4" stroke="none"/>
+    <rect x="862" y="112" width="86" height="12" fill="#A8BEC4" stroke="none"/>
+    <rect x="984" y="112" width="84" height="12" fill="#D87835" stroke="none"/>
+    <rect x="130" y="218" width="430" height="228" fill="#111615"/>
+    <rect x="612" y="218" width="458" height="228" fill="#26302D"/>
+    <rect x="130" y="248" width="220" height="18" fill="#D87835" stroke="none"/>
+    <rect x="130" y="292" width="342" height="14" fill="#F5E8D1" stroke="none"/>
+    <rect x="130" y="324" width="276" height="12" fill="#A8BEC4" stroke="none"/>
+    <rect x="130" y="377" width="144" height="40" fill="#D87835" stroke="none"/>
+    <path d="m642 400 130-136 92 74 110-98" fill="none" stroke="#D87835" stroke-width="6"/>
+    <circle cx="772" cy="264" r="12" fill="#F5E8D1" stroke="none"/>
+    <circle cx="864" cy="338" r="12" fill="#F5E8D1" stroke="none"/>
+    <circle cx="974" cy="240" r="12" fill="#F5E8D1" stroke="none"/>
+    <rect x="130" y="500" width="288" height="170" fill="#111615"/>
+    <rect x="456" y="500" width="288" height="170" fill="#111615"/>
+    <rect x="782" y="500" width="288" height="170" fill="#111615"/>
+    <rect x="156" y="526" width="236" height="98" fill="#27332F" stroke="none"/>
+    <rect x="482" y="526" width="236" height="98" fill="#27332F" stroke="none"/>
+    <rect x="808" y="526" width="236" height="98" fill="#27332F" stroke="none"/>
+    <path d="M180 598h184M500 598h132M844 598h172" stroke="#D87835" stroke-width="5"/>
+  </g>
+</svg>
