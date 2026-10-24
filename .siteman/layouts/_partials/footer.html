@@ -2,7 +2,7 @@
   <div class="container footer-grid">
     <div>
       <a class="brand" href="{{ site.Home.RelPermalink }}" aria-label="{{ site.Params.business_name | default site.Title }} home">
-        {{ with site.Params.footer_logo }}<img src="{{ . | relURL }}" alt="Bullish Design bull mark" width="44" height="44">{{ end }}
+        {{ with site.Params.footer_logo }}<img src="{{ . | relURL }}" alt="Bullish Design linework bull emblem" width="58" height="44">{{ end }}
         <span>{{ site.Params.business_name | default site.Title }}</span>
       </a>
       <p>{{ site.Params.copyright | default (printf "© %d %s" now.Year (site.Params.business_name | default site.Title)) }}</p>

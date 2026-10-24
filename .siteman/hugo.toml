@@ -21,9 +21,9 @@ theme = ["github.com/Bullish-Design/roxo-flex", "siteman-default"]
 [params]
 business_name = "Bullish Design"
 description = "Product design consulting for mechanical and industrial products."
-logo = "images/bullish-mark.svg"
-footer_logo = "images/bullish-mark.svg"
-favicon = "images/favicon.svg"
+logo = "images/bullish-mark-faceted.png"
+footer_logo = "images/bullish-mark-linework.png"
+favicon = "images/favicon.png"
 copyright = "© 2026 Bullish Design"
 
 [params.contact]
@@ -35,7 +35,7 @@ surface = "#1B211F"
 text = "#F5E8D1"
 muted = "#A8BEC4"
 border = "#47534E"
-accent = "#D87835"
+accent = "#F89D58"
 on_accent = "#151918"
 font_body = "system-ui, sans-serif"
 font_heading = '"Arial Narrow", "Roboto Condensed", system-ui, sans-serif'

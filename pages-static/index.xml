@@ -1,1 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bullish Design</title><link>https://bullish-design.github.io/</link><description>Recent content on Bullish Design</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://bullish-design.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Molded plywood and the Eames DCW chair</title><link>https://bullish-design.github.io/field-notes/eames-molded-plywood/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bullish-design.github.io/field-notes/eames-molded-plywood/</guid><description>&lt;p&gt;The 1946 Dining Chair Wood (DCW) by Charles and Ray Eames connects material, structure, and comfort. The Museum of Modern Art records the chair as molded and bent birch plywood with rubber shockmounts.&lt;/p&gt;&#10;&lt;p&gt;The Eameses had experimented with plywood since 1940. The Museum of Modern Art describes how their early work did not yet produce complex curves that could support the body without upholstery. Years of experiments led to a process that could bend and mold the material into compound curves.&lt;/p&gt;</description></item><item><title>Roxo Flex</title><link>https://bullish-design.github.io/portfolio/roxo-flex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bullish-design.github.io/portfolio/roxo-flex/</guid><description>&lt;p&gt;Roxo Flex is a Hugo theme for studios, teams, and project portfolios. Each site owner sets the brand, content, section order, and visual style in the site repository.&lt;/p&gt;&#10;&lt;h2 id="design-decisions"&gt;Design decisions&lt;/h2&gt;&#10;&lt;p&gt;The theme uses reusable page sections for the hero, selected work, and contact action. It keeps content and images in each site&amp;rsquo;s own files. Its responsive navigation and card layout follow the same structure at wide and narrow widths.&lt;/p&gt;&#10;&lt;h2 id="bullish-designs-role"&gt;Bullish Design&amp;rsquo;s role&lt;/h2&gt;&#10;&lt;p&gt;Roxo Flex is a Bullish Design fork of Roxo Hugo. The fork keeps the upstream history and license. Its templates and styles were rebuilt for current Hugo. The &lt;a href="https://github.com/Bullish-Design/roxo-flex"&gt;Roxo Flex repository&lt;/a&gt; documents its configuration and layout options.&lt;/p&gt;</description></item><item><title>Siteman</title><link>https://bullish-design.github.io/portfolio/siteman/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://bullish-design.github.io/portfolio/siteman/</guid><description>&lt;p&gt;Siteman is a static site workflow delivered as a devenv module. It provides a pinned Hugo Extended toolchain and commands to initialize, serve, build, and check a site.&lt;/p&gt;&#10;&lt;h2 id="design-decisions"&gt;Design decisions&lt;/h2&gt;&#10;&lt;p&gt;Site content stays in visible files. Hugo configuration and fallback layouts stay in .siteman/. This keeps the authored pages easy to edit while giving the build tools one consistent configuration.&lt;/p&gt;&#10;&lt;p&gt;Siteman supports a site theme before siteman-default. The chosen theme handles its own pages, while the fallback supplies layouts that the theme does not include. This site uses that order with Roxo Flex first.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Bullish Design</title>
+		<link>http://localhost:1315/</link>
+		<description>Recent content on Bullish Design</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1315/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Molded plywood and the Eames DCW chair</title>
+				<link>http://localhost:1315/field-notes/eames-molded-plywood/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1315/field-notes/eames-molded-plywood/</guid>
+				<description>&lt;p&gt;The 1946 Dining Chair Wood (DCW) by Charles and Ray Eames connects material, structure, and comfort. The Museum of Modern Art records the chair as molded and bent birch plywood with rubber shockmounts.&lt;/p&gt;&#xA;&lt;p&gt;The Eameses had experimented with plywood since 1940. The Museum of Modern Art describes how their early work did not yet produce complex curves that could support the body without upholstery. Years of experiments led to a process that could bend and mold the material into compound curves.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Roxo Flex</title>
+				<link>http://localhost:1315/portfolio/roxo-flex/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1315/portfolio/roxo-flex/</guid>
+				<description>&lt;p&gt;Roxo Flex is a Hugo theme for studios, teams, and project portfolios. Each site owner sets the brand, content, section order, and visual style in the site repository.&lt;/p&gt;&#xA;&lt;h2 id=&#34;design-decisions&#34;&gt;Design decisions&lt;/h2&gt;&#xA;&lt;p&gt;The theme uses reusable page sections for the hero, selected work, and contact action. It keeps content and images in each site&amp;rsquo;s own files. Its responsive navigation and card layout follow the same structure at wide and narrow widths.&lt;/p&gt;&#xA;&lt;h2 id=&#34;bullish-designs-role&#34;&gt;Bullish Design&amp;rsquo;s role&lt;/h2&gt;&#xA;&lt;p&gt;Roxo Flex is a Bullish Design fork of Roxo Hugo. The fork keeps the upstream history and license. Its templates and styles were rebuilt for current Hugo. The &lt;a href=&#34;https://github.com/Bullish-Design/roxo-flex&#34;&gt;Roxo Flex repository&lt;/a&gt; documents its configuration and layout options.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Siteman</title>
+				<link>http://localhost:1315/portfolio/siteman/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1315/portfolio/siteman/</guid>
+				<description>&lt;p&gt;Siteman is a static site workflow delivered as a devenv module. It provides a pinned Hugo Extended toolchain and commands to initialize, serve, build, and check a site.&lt;/p&gt;&#xA;&lt;h2 id=&#34;design-decisions&#34;&gt;Design decisions&lt;/h2&gt;&#xA;&lt;p&gt;Site content stays in visible files. Hugo configuration and fallback layouts stay in .siteman/. This keeps the authored pages easy to edit while giving the build tools one consistent configuration.&lt;/p&gt;&#xA;&lt;p&gt;Siteman supports a site theme before siteman-default. The chosen theme handles its own pages, while the fallback supplies layouts that the theme does not include. This site uses that order with Roxo Flex first.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

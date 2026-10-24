@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://bullish-design.github.io/field-notes/eames-molded-plywood/</loc></url><url><loc>https://bullish-design.github.io/portfolio/roxo-flex/</loc></url><url><loc>https://bullish-design.github.io/portfolio/siteman/</loc></url><url><loc>https://bullish-design.github.io/about/</loc></url><url><loc>https://bullish-design.github.io/</loc></url><url><loc>https://bullish-design.github.io/categories/</loc></url><url><loc>https://bullish-design.github.io/contact/</loc></url><url><loc>https://bullish-design.github.io/field-notes/</loc></url><url><loc>https://bullish-design.github.io/tags/</loc></url><url><loc>https://bullish-design.github.io/portfolio/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1315/field-notes/eames-molded-plywood/</loc>
+  </url><url>
+    <loc>http://localhost:1315/portfolio/roxo-flex/</loc>
+  </url><url>
+    <loc>http://localhost:1315/portfolio/siteman/</loc>
+  </url><url>
+    <loc>http://localhost:1315/about/</loc>
+  </url><url>
+    <loc>http://localhost:1315/</loc>
+  </url><url>
+    <loc>http://localhost:1315/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1315/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1315/field-notes/</loc>
+  </url><url>
+    <loc>http://localhost:1315/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1315/portfolio/</loc>
+  </url>
+</urlset>

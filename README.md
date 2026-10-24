@@ -8,7 +8,9 @@ This site uses Hugo Extended, siteman, and the Roxo Flex theme.
 - content/_index.md holds the homepage sections.
 - content/about/, content/portfolio/, and content/contact/ hold site pages.
 - content/field-notes/ holds sourced product and design studies.
-- static/images/ and static/icons/ hold site-owned SVG assets.
+- static/images/ and static/icons/ hold site-owned artwork. The header uses a
+  direct crop of the faceted logo from the supplied sheet. The footer uses a
+  direct crop of the linework logo. The favicon uses the circular faceted logo.
 - .siteman/layouts/contact.html adds the public GitHub contact link.
 
 Roxo Flex loads before siteman-default. Keep that order so siteman can provide
@@ -21,7 +23,9 @@ Edit the Markdown files under content/. Set a useful title and description in
 each page's front matter. Set image_alt when a page uses an image. Keep new
 artwork in static/images/ and use links to cite research.
 
-Change the palette, menu, logo, and root URL in .siteman/hugo.toml. Do not set
+Change the palette, menu, logo, and root URL in .siteman/hugo.toml. Keep the
+accent close to the sampled copper in the logo artwork. Do not redraw the
+supplied logo assets. Do not set
 params.contact.form_endpoint until a real form service exists. The contact
 page uses a public GitHub issue link while no email address is available.
 

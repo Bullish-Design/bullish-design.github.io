@@ -36,6 +36,9 @@
         # Every tracked file is text (grep -I rejects a binary file).
         bad=0
         for f in $(git ls-files); do
+          case "$f" in
+            *.gif|*.ico|*.jpeg|*.jpg|*.png|*.webp) continue ;;
+          esac
           if [ -f "$f" ] && [ -s "$f" ] && ! grep -Iq . "$f"; then
             echo "not text: $f"
             bad=1
